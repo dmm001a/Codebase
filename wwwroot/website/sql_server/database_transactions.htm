@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>Database Transactions | | New York City</title>
+    <meta
+      name="keywords"
+      content="Project Management, IT Project Management, SQL, SQL Server, Business Analysis, Microsoft SQL Server, VBA.Net, VBA, Visual Basic for Applications, Visual Basic, Visual Basic for Applications, Visual Basic"
+    />
+    <meta
+      name="description"
+      content="I am a versatile and flexible I.T. Professional with
+    significant experience driving cross functional initiatives
+    through business need definition, prioritization and
+    completion while ensuring stakeholder visibility into
+    project progress."
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="../images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- For Safari on Mac OS -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../images/apple-touch-icon.png"
+    />
+    <!-- For Android Chrome -->
+    <link rel="manifest" href="../images/site.webmanifest" />
+    <!-- <link rel="mask-icon" href="../images/safari-512x512.svg" color="#5bbad5"> -->
+
+    <noscript
+      ><link rel="stylesheet" href="../assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <div id="loader-wrapper" class="loader-wrapper">
+      <div id="preloader_1" class="rectangle-bounce">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <a href="../index.htm" class="logo">
+            <span class="symbol"
+              ></span
+            ><span class="title">ikawsoft.com</span>
+          </a>
+
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="../index.htm">Home</a></li>
+          <li>
+            <a href="../it_management.htm">I.T. Management</a>
+          </li>
+          <li>
+            <a href="../ba_pm.htm">Business Analysis & Project Management</a>
+          </li>
+          <li><a href="../vbdotnet.htm">VB.Net</a></li>
+          <li><a href="../sql_server.htm" class="active">SQL Server</a></li>
+          <li><a href="../about.htm">About</a></li>
+          <li><a href="../index.htm#footer">Follow</a></li>
+          <!-- <li><a href="generic.html">Ipsum veroeros</a></li>
+          <li><a href="generic.html">Tempus etiam</a></li>
+          <li><a href="generic.html">Consequat dolor</a></li>
+          <li><a href="elements.html">Elements</a></li> -->
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main" class="overflow-hidden">
+        <div class="inner">
+          <header>
+            <h1>Database Transactions</h1>
+            <ul class="breadcrumb-links">
+              <li>
+                <a href="../index.htm" class="breadcrumb-box">
+                  <svg
+                    class="breadcrumb-icon-home"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span href="#" class="breadcrumb-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <div class="breadcrumb-box">
+                  <svg
+                    class="breadcrumb-icon"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <a href="../sql_server.htm" class="breadcrumb-text"
+                    >SQL Server</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="breadcrumb-box">
+                  <svg
+                    class="breadcrumb-icon"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="breadcrumb-text" style="font-weight: 600"
+                    >Database Transactions</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </header>
+          <br />
+          <!-- IT Management section -->
+          <div class="container-auto">
+            <div class="row">
+              <!-- Content -->
+              <div id="content" class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <!-- Post -->
+                <article class="box post">
+                  <h2>I. Summary</h2>
+                  <!-- <div class="pl-3"> -->
+                  <p>
+                    When writing a software application, it is sometimes
+                    necessary to execute several SQL Statements that either
+                    succeed together or fail together. Database Transactions are
+                    the most straightforward way to solve this common
+                    programming challenge.
+                  </p>
+                  <p><strong>Example:</strong></p>
+                  <span>
+                    <pre><code>Public Function mAddOrder() As Integer<br>   On Error GoTo Errorhandler<br><br><span class="comment">    '------------------------------------------------<br>    'Declare Variables<br>    '------------------------------------------------</span><br>    Dim oConnection As ADODB.Connection<br>    Dim iTotalOrderAmount As Integer<br>    Dim iRecordsUpdated As Integer<br>    Dim iReturnValue As Integer<br>    Dim sConnectionString As String<br>    Dim sSQL As String<br>    Dim bConnectionTransactionInProgress As Boolean<br><br>    <span class="comment">'------------------------------------------------<br>    'Initialize Variables<br>    '------------------------------------------------</span><br>    oConnection = New ADODB.Connection<br>    sConnectionString = "[Connection String Value]"<br>    iTotalOrderAmount = 10000<br>    iReturnValue = 0<br><br>    <span class="comment">'------------------------------------------------<br>    'Open Database Connection<br>    '------------------------------------------------</span><br>    oConnection.Open(sConnectionString)<br><br>      <span class="comment">'Start Database Transaction on Database Connection<br>      '----------------------------------------------------------------------------------------</span><br>      oConnection.BeginTrans<br>      bConnectionTransactionInProgress = True<br><br>        <span class="comment">'Insert An Order Record into the Orders Table<br>        '------------------------------------------------------------------------------------------------</span><br>        sSQL = "INSERT INTO tb_Order (Customer_Company_Name, Customer_Order_Count, Customer_Total_Order_Amount) VALUES ('Sample Company', 1, 500)"<br>        oConnection.Execute(sSQL)<br><br>        <span class="comment">'Update the Customer Table with the Total Amount of the Orders Made<br>        '------------------------------------------------------------------------------------------------</span><br>        sSQL = "UPDATE tb_Customer SET Total_Order_Amount = " & (iTotalOrderAmount + 500)<br>           sSQL = sSQL & " WHERE Customer_Name = 'Sample Company'"<br>        oConnection.Execute(sSQL, iRecordsUpdated)<br><br>      <span class="comment">'This application searches by customer name for the customer record. If 1 customer record is going to be updated, commit both transactions to the database. If more or less than 1 customer record is going to be updated, rollback both transactions and alert the user to the error.<br>      '-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span><br>      If iRecordsUpdated = 1 Then<br>           oConnection.CommitTrans<br>           bConnectionTransactionInProgress = False<br>      ElseIf iRecordsUpdated <> 1 Then<br>           oConnection.RollbackTrans<br>           bConnectionTransactionInProgress = False<br>           Msgbox("mAddOrder: Customer data error in the tb_Customer table. Number of matching customer records is not equal to 1.")<br>      End If<br><br>    <span class="comment">'Close the Database Connection and Set the oConnection Object to Nothing<br>    '--------------------------------------------------------------------------------------------</span><br>    oConnection.Close<br>    oConnection = Nothing<br>    iReturnValue = 1<br>    mAddOrder = iReturnValue<br><br>    Exit Function<br>    Errorhandler:<br>      <span class="comment">'If an error occurs during the mAddOrder Function and the oConnection Object has been created, rollback the transaction and set the oConnection Object to Nothing.<br>      '-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span><br>      If IsNothing(oConnection) = False Then<br>         If bConnectionTransactionInProgress = True Then<br>            oConnection.RollbackTrans<br>         End If<br>         oConnection = Nothing<br>      End If<br>      mAddOrder = 0<br>      Msgbox(Err.Number & " - " & Err.Source & " - " & Err.Description)<br>End Function</code></pre>
+                  </span>
+                  <!-- </div> -->
+                </article>
+              </div>
+
+              <!-- Sidebar -->
+              <div id="sidebar" class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <!-- Excerpts -->
+                <section>
+                  <ul class="divided">
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./database_design_and_modeling.htm"
+                              >Database Design and Modeling</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          The purpose of a database is to capture the necessary
+                          data needs of the software application, research
+                          project, organization, etc. It is important to think
+                          conceptually...
+                        </p>
+                        <a
+                          href="./database_design_and_modeling.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./database_blocks_and_deadlocks.htm"
+                              >Database Locks and Deadlocks</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          Database Blocks occur when a database transaction
+                          places an Update Lock or Exclusive Lock on a database
+                          resource while other database transactions are
+                          attempting to access that database resource...
+                        </p>
+                        <a
+                          href="./database_blocks_and_deadlocks.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./database_maintenance.htm"
+                              >Database Maintenance</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          Routine database maintenance is necessary for every
+                          database. Every use of a database is fulfilled by some
+                          form of database transaction. Database usage causes
+                          the connections, transactions, locks,...
+                        </p>
+                        <a
+                          href="./database_maintenance.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <!-- <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./database_transactions.htm"
+                              >Database Transactions</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          When writing a software application, it is sometimes
+                          necessary to execute several SQL Statements that
+                          either succeed together or fail together. Database
+                          Transactions are the most straightforward way to
+                          solve...
+                        </p>
+                        <a
+                          href="./database_transactions.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li> -->
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a
+                              href="./database_design_monitoring_and_optimization.htm"
+                              >Database Design, Monitoring and Optimization</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          Database performance begins with good database design.
+                          Software Engineers who design databases for SQL Server
+                          should have a fundamental understanding...
+                        </p>
+                        <a
+                          href="./database_design_monitoring_and_optimization.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a
+                              href="./sql_server_configuration_for_developer_machines.htm"
+                              >SQL Server Configuration for Developer
+                              Machines</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          SQL Server's default settings are for computers with
+                          the CPU power and RAM of server class machines. On
+                          developer machines, it makes sense...
+                        </p>
+                        <a
+                          href="./sql_server_configuration_for_developer_machines.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./structured_query_language_ddl.htm"
+                              >Structured Query Language (SQL): Data Definition
+                              Language (DDL)</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          Structured Query Language (SQL) is a Query Language
+                          that is used to create,delete and change database
+                          objects in a Relational Database Management System
+                          (RDBMS)....
+                        </p>
+                        <a
+                          href="./structured_query_language_ddl.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./structured_query_language_dml.htm"
+                              >Structured Query Language (SQL): Data
+                              Manipulation Language (DML)</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          Structured Query Language (SQL) is a Query Language
+                          that is used to retrieve, add, update and delete
+                          records from a Relational Database Management...
+                        </p>
+                        <a
+                          href="./structured_query_language_dml.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./sysobjects_and_syscolumns.htm"
+                              >SysObjects and SysColumns</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          Each SQL Server Database has a set of system tables
+                          that are used to store data about the configuration of
+                          SQL Server and SQL Server Objects. The system tables
+                          have data about the following types...
+                        </p>
+                        <a
+                          href="./sysobjects_and_syscolumns.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!-- SQL section -->
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer" class="text-center text-sm-left">
+        <div class="inner" id="contactSection">
+          <section>
+            <h2>Quick links</h2>
+            <ul class="icons">
+              <li>
+                <a href="../index.htm" title="Click to visit">Home</a>
+              </li>
+              <li>
+                <a href="../it_management.htm" title="Click to visit"
+                  >I.T. Management</a
+                >
+              </li>
+              <li>
+                <a href="../ba_pm.htm" title="Click to visit"
+                  >Business Analysis & Project Management</a
+                >
+              </li>
+              <li>
+                <a href="../vbdotnet.htm" title="Click to visit">VB.Net</a>
+              </li>
+              <li>
+                <a href="../sql_server.htm" title="Click to visit"
+                  >SQL Server</a
+                >
+              </li>
+              <li><a href="../about.htm" title="Click to visit">About</a></li>
+            </ul>
+          </section>
+          <section>
+            <h2>Follow</h2>
+            <ul class="icons">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/devonmanelski73"
+                  target="_blank"
+                  title="Click to visit"
+                  class="icon brands style2 fa-linkedin"
+                  ><span class="label">Linkedin</span></a
+                >
+              </li>
+            </ul>
+          </section>
+          <ul class="copyright">
+            <li>
+              &copy; | All rights reserved |
+              <span id="year"></span>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <a href="" id="back-to-top" class="back_to_top" title="Go to top">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

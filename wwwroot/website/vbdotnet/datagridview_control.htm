@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>The DataGridView Control | | New York City</title>
+    <meta
+      name="keywords"
+      content="Project Management, IT Project Management, SQL, SQL Server, Business Analysis, Microsoft SQL Server, VBA.Net, VBA, Visual Basic for Applications, Visual Basic, Visual Basic for Applications, Visual Basic"
+    />
+    <meta
+      name="description"
+      content="I am a versatile and flexible I.T. Professional with
+    significant experience driving cross functional initiatives
+    through business need definition, prioritization and
+    completion while ensuring stakeholder visibility into
+    project progress."
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="../images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- For Safari on Mac OS -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../images/apple-touch-icon.png"
+    />
+    <!-- For Android Chrome -->
+    <link rel="manifest" href="../images/site.webmanifest" />
+    <!-- <link rel="mask-icon" href="../images/safari-512x512.svg" color="#5bbad5"> -->
+
+    <noscript
+      ><link rel="stylesheet" href="../assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <div id="loader-wrapper" class="loader-wrapper">
+      <div id="preloader_1" class="rectangle-bounce">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <a href="../index.htm" class="logo">
+            <span class="symbol"
+              ></span
+            ><span class="title">ikawsoft.com</span>
+          </a>
+
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="../index.htm">Home</a></li>
+          <li>
+            <a href="../it_management.htm">I.T. Management</a>
+          </li>
+          <li>
+            <a href="../ba_pm.htm">Business Analysis & Project Management</a>
+          </li>
+          <li><a href="../vbdotnet.htm" class="active">VB.Net</a></li>
+          <li><a href="../sql_server.htm">SQL Server</a></li>
+          <li><a href="../about.htm">About</a></li>
+          <li><a href="../index.htm#footer">Follow</a></li>
+          <!-- <li><a href="generic.html">Ipsum veroeros</a></li>
+          <li><a href="generic.html">Tempus etiam</a></li>
+          <li><a href="generic.html">Consequat dolor</a></li>
+          <li><a href="elements.html">Elements</a></li> -->
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main" class="overflow-hidden">
+        <div class="inner">
+          <header>
+            <h1>The DataGridView Control</h1>
+            <ul class="breadcrumb-links">
+              <li>
+                <a href="../index.htm" class="breadcrumb-box">
+                  <svg
+                    class="breadcrumb-icon-home"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span href="#" class="breadcrumb-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <div class="breadcrumb-box">
+                  <svg
+                    class="breadcrumb-icon"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <a href="../vbdotnet.htm" class="breadcrumb-text">VB.net</a>
+                </div>
+              </li>
+              <li>
+                <div class="breadcrumb-box">
+                  <svg
+                    class="breadcrumb-icon"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span class="breadcrumb-text" style="font-weight: 600"
+                    >The DataGridView Control</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </header>
+          <br />
+          <!-- IT Management section -->
+          <div class="container-auto">
+            <div class="row">
+              <!-- Content -->
+              <div id="content" class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <!-- Post -->
+                <article class="box post">
+                  <h2>I. Summary</h2>
+                  <p>
+                    The DataGridView_Example Project shows how to populate a
+                    DataGridView using a DataGridView Class. In addition, The
+                    DataGridView_Example demonstrates how to use a ComboBox
+                    Class to populate the ComboBoxes of a DataGridView Control.
+                    This example can also be used for databases by populating
+                    the Properties of the Objects with the Field Values of a
+                    Recordset.
+                  </p>
+                  <h2>II. Screenshots</h2>
+                  <a
+                    href="../images/vbdotnet/sc_Example_DataGridView_Design_Mode.gif"
+                    title="Click to view image"
+                    class="lightbox_trigger"
+                  >
+                    <img
+                      src="../images/vbdotnet/sc_Example_DataGridView_Design_Mode.gif"
+                      class="img-fluid"
+                      alt="The DataGridView Control"
+                    />
+                  </a>
+                  <a
+                    href="../images/vbdotnet/sc_Example_DataGridView_Runtime_Mode.gif"
+                    title="Click to view image"
+                    class="lightbox_trigger"
+                  >
+                    <img
+                      src="../images/vbdotnet/sc_Example_DataGridView_Runtime_Mode.gif"
+                      class="img-fluid"
+                      alt="The DataGridView Control"
+                    />
+                  </a>
+                  <br />
+                  <br />
+                  <h2>III. Sample Code</h2>
+                  <div class="pl-3">
+                    <h4><strong>A.</strong> The cSoftwareCompany Class</h4>
+                    <span>
+                      <pre><code>Public Class cSoftwareCompany<br> Private lSoftwareCompanyID As Integer<br> Private lSoftwareCompanyName as String<br> Private lSoftwareCompanyCity As String<br> Private lSoftwareCompanyState As String<br> Private lSoftwareCompanyCountryID As Integer<br><br> Public Property pSoftwareCompanyID() As Integer<br>  Get<br>    pSoftwareCompanyID = lSoftwareCompanyID<br>  End Get<br>  Set(ByVal iSoftwareCompanyID As Integer)<br>    lSoftwareCompanyID = iSoftwareCompanyID<br>  End Set<br> End Property<br><br> Public Property pSoftwareCompanyName() As String<br>  Get<br>    pSoftwareCompanyName = lSoftwareCompanyName<br>  End Get<br>  Set(ByVal sSoftwareCompanyName As String)<br>    lSoftwareCompanyName = sSoftwareCompanyName<br>  End Set<br> End Property<br><br> Public Property pSoftwareCompanyCity() As String<br>  Get<br>    pSoftwareCompanyCity = lSoftwareCompanyCity<br>  End Get<br>  Set(ByVal sSoftwareCompanyCity As String)<br>    lSoftwareCompanyCity = sSoftwareCompanyCity<br>  End Set<br> End Property<br><br> Public Property pSoftwareCompanyState() As String<br>  Get<br>    pSoftwareCompanyState = lSoftwareCompanyState<br>  End Get<br>  Set(ByVal sSoftwareCompanyState As String)<br>    lSoftwareCompanyState = sSoftwareCompanyState<br>  End Set<br> End Property<br><br> Public Property pSoftwareCompanyCountryID() As Integer<br>  Get<br>    pSoftwareCompanyCountryID = lSoftwareCompanyCountryID<br>  End Get<br>  Set(ByVal iSoftwareCompanyCountryID As Integer)<br>    lSoftwareCompanyCountryID = iSoftwareCompanyCountryID<br>  End Set<br> End Property<br><br>End Class</code></pre>
+                    </span>
+                    <h4><strong>B.</strong> The cCountry Class</h4>
+                    <span>
+                      <pre><code>Public Class cCountry<br> Private lCountryID As Integer<br> Private lCountryName As String<br><br> Public Property pCountryID() As Integer<br>  Get<br>    pCountryID = lCountryID<br>  End Get<br>  Set(ByVal iCountryID As Integer)<br>    lCountryID = iCountryID<br>  End Set<br> End Property<br><br> Public Property pCountryName() As String<br>  Get<br>    pCountryName = lCountryName<br>  End Get<br>  Set(ByVal sCountryName As String)<br>    lCountryName = sCountryName<br>  End Set<br> End Property<br><br>End Class</code></pre>
+                    </span>
+                    <h4>
+                      <strong>C.</strong> The frmDataGridView Form Load Event
+                    </h4>
+                    <span>
+                      <pre><code>Private Sub frmDataGridView_Load(sender As Object, e As EventArgs) Handles Me.Load<br> On Error Goto Errorhandler<br><br>   <span class="comment">'Initialize Variables<br>   '-----------------------------------------</span><br>    Dim oSoftwareCompanyList As List(Of cSoftwareCompany)<br>    Dim oSoftwareCompany(3) As cSoftwareCompany<br>    Dim oCountryComboBoxList As List(Of cCountry)<br>    Dim oCountryComboBox(1) as cCountry<br>    Dim oDataGridTextBoxColumn As DataGridViewTextBoxColumn<br>    Dim oDataGridComboBoxColumn As DataGridViewComboBoxColumn<br><br>    oSoftwareCompanyList = New List(Of cSoftwareCompany)<br>    oCountryComboBoxList = New List(Of cCountry)<br><br>    <span class="comment">'Set the Properties of the DataGridView<br>    '-----------------------------------------</span><br>    Me.dgSoftwareCompany.AllowUserToAddRows = False<br>    Me.dgSoftwareCompany.AutoGenerateColumns = False<br>    Me.dgSoftwareCompany.MultiSelect = False<br><br>    <span class="comment">'Initialize Software Company Object and Add To Software Company List<br>    '-----------------------------------------</span><br>    oSoftwareCompany(0) = New cSoftwareCompany<br>    With oSoftwareCompany(0)<br>     .pSoftwareCompanyID = 1<br>     .pSoftwareCompanyName = "Microsoft"<br>     .pSoftwareCompanyCity = "Redmond"<br>     .pSoftwareCompanyState = "Washington"<br>     .pSoftwareCompanyCountryID = 1<br>    End With<br>    oSoftwareCompanyList.Add(oSoftwareCompany(0))<br><br>    oSoftwareCompany(1) = New cSoftwareCompany<br>    With oSoftwareCompany(1)<br>     .pSoftwareCompanyID = 2<br>     .pSoftwareCompanyName = "Apple"<br>     .pSoftwareCompanyCity = "Cupertino"<br>     .pSoftwareCompanyState = "California"<br>     .pSoftwareCompanyCountryID = 1<br>    End With<br>    oSoftwareCompanyList.Add(oSoftwareCompany(1))<br><br>    oSoftwareCompany(2) = New cSoftwareCompany<br>    With oSoftwareCompany(2)<br>     .pSoftwareCompanyID = 3<br>     .pSoftwareCompanyName = "Oracle"<br>     .pSoftwareCompanyCity = "Redwood City"<br>     .pSoftwareCompanyState = "California"<br>     .pSoftwareCompanyCountryID = 1<br>    End With<br>    oSoftwareCompanyList.Add(oSoftwareCompany(2))<br><br>    oSoftwareCompany(3) = New cSoftwareCompany<br>    With oSoftwareCompany(3)<br>     .pSoftwareCompanyID = 3<br>     .pSoftwareCompanyName = "SAP"<br>     .pSoftwareCompanyCity = "Walldorf"<br>     .pSoftwareCompanyState = "Baden-Württemberg"<br>     .pSoftwareCompanyCountryID = 2<br>    End With<br>    oSoftwareCompanyList.Add(oSoftwareCompany(3))<br><br>    <span class="comment">'Populate Data Grid With Software Company List<br>    '-----------------------------------------</span><br>    Me.dgSoftwareCompany.DataSource = oSoftwareCompanyList<br><br>    'Software Company ID<br>    oDataGridTextBoxColumn = New DataGridViewTextBoxColumn<br>    With oDataGridTextBoxColumn<br>     .HeaderText = "Software Company ID"<br>     .DataPropertyName = "pSoftwareCompanyID"<br>     .Width = "75"<br>     .Visible = True<br>     Me.dgSoftwareCompany.Columns.Add(oDataGridTextBoxColumn)<br>    End With<br>    oDataGridTextBoxColumn = Nothing<br><br>    'Software Company Name<br>    oDataGridTextBoxColumn = New DataGridViewTextBoxColumn<br>    With oDataGridTextBoxColumn<br>     .HeaderText = "Software Company Name"<br>     .DataPropertyName = "pSoftwareCompanyName"<br>     .Width = "150"<br>     .Visible = True<br>     Me.dgSoftwareCompany.Columns.Add(oDataGridTextBoxColumn)<br>    End With<br>    oDataGridTextBoxColumn = Nothing<br><br>    'Software Company City<br>    oDataGridTextBoxColumn = New DataGridViewTextBoxColumn<br>    With oDataGridTextBoxColumn<br>     .HeaderText = "Software Company City"<br>     .DataPropertyName = "pSoftwareCompanyCity"<br>     .Width = "150"<br>     .Visible = True<br>     Me.dgSoftwareCompany.Columns.Add(oDataGridTextBoxColumn)<br>    End With<br>    oDataGridTextBoxColumn = Nothing<br><br>    'Software Company State<br>    oDataGridTextBoxColumn = New DataGridViewTextBoxColumn<br>    With oDataGridTextBoxColumn<br>     .HeaderText = "Software Company State"<br>     .DataPropertyName = "pSoftwareCompanyState"<br>     .Width = "150"<br>     .Visible = True<br>     Me.dgSoftwareCompany.Columns.Add(oDataGridTextBoxColumn)<br>    End With<br>    oDataGridTextBoxColumn = Nothing<br><br>    'Software Company Country<br>    oDataGridComboBoxColumn = New DataGridViewComboBoxColumn<br>    With oDataGridComboBoxColumn<br>     .HeaderText = "Software Company Country"<br>     .DataPropertyName = "pSoftwareCompanyCountryID"<br>     .Width = "150"<br>     .Visible = True<br>    <br>    <span class="comment">'Add ComboBoxValue to Country DataGridComboBox</span><br>     oCountryComboBox(0) = New cCountry<br>     With oCountryComboBox(0)<br>      .pCountryID = 1<br>      .pCountryName = "United States"<br>     End With<br>     oCountryComboBoxList.Add(oCountryComboBox(0))<br>    <br>     oCountryComboBox(1) = New cCountry<br>     With oCountryComboBox(1)<br>      .pCountryID = 2<br>      .pCountryName = "Germany"<br>     End With<br>     oCountryComboBoxList.Add(oCountryComboBox(1))<br>    <br>     oDataGridComboBoxColumn.DataSource = oCountryComboBoxList<br>     oDataGridComboBoxColumn.DisplayMember = "pCountryName"<br>     oDataGridComboBoxColumn.ValueMember = "pCountryID"<br>    End With<br>    Me.dgSoftwareCompany.Columns.Add(oDataGridComboBoxColumn)<br>    oDataGridComboBoxColumn = Nothing<br><br>    <span class="comment">'Clean Up Variables<br>    '-----------------------------------------</span><br>    oSoftwareCompany = Nothing<br>    oSoftwareCompanyList = Nothing<br><br>    Exit Sub<br>    Errorhandler:<br>      Msgbox(Err.Number & "-" & Err.Source & ": " & Err.Description)<br>End Sub</code></pre>
+                    </span>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Sidebar -->
+              <div id="sidebar" class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <!-- Excerpts -->
+                <section>
+                  <ul class="divided">
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./classes_and_objects.htm"
+                              >Classes and Objects
+                            </a>
+                          </h4>
+                        </header>
+                        <p>
+                          A Class is an encapsulation of Data and Methods. The
+                          Data is stored in Properties of the Class. The Methods
+                          operate on the Data stored in the Properties of the
+                          Class in combination with the Data that is passed as
+                          Arguments...
+                        </p>
+                        <a
+                          href="./classes_and_objects.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./combobox_control.htm"
+                              >The ComboBox Control
+                            </a>
+                          </h4>
+                        </header>
+                        <p>
+                          The Items Collection of a ComboBox is the simplest way
+                          to populate a ComboBox with values. However, when
+                          building most software applications you will find that
+                          it is more logical to use a numeric value for each of
+                          the text...
+                        </p>
+                        <a
+                          href="./combobox_control.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <!-- <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./datagridview_control.htm"
+                              >The DataGridView Control</a>
+                          </h4>
+                        </header>
+                        <p>The DataGridView_Example Project shows how to populate a DataGridView using a DataGridView Class. In addition, The DataGridView_Example demonstrates how to use a ComboBox Class to populate the ComboBoxes...
+                        </p>
+                        <a
+                          href="./datagridview_control.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li> -->
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./error_handling.htm"
+                              >Error Handling and Management</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          Error handling and an error management architecture is
+                          an essential part of every software application. At
+                          the most basic level, every sub procedure and function
+                          must include error handling. Furthermore...
+                        </p>
+                        <a href="./error_handling.htm" class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./form_object.htm">The Form Object</a>
+                          </h4>
+                        </header>
+                        <p>
+                          The Form Object is an instance of the Forms Class.
+                          Forms are the building blocks of a software
+                          application that has a Graphical User Interface (GUI).
+                          One of the most basic things that a Software
+                          Engineer...
+                        </p>
+                        <a href="./form_object.htm" class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./global_assembly_cache.htm"
+                              >Adding a DLL to the Global Assembly Cache</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          In order to share assemblies --i.e. a Dynamic Link
+                          Library-- across applications, the assembly must be
+                          registered with the Global Assembly Cache. The Global
+                          Assembly Cache...
+                        </p>
+                        <a
+                          href="./global_assembly_cache.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./recordset_object.htm"
+                              >The Recordset Object</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          The Recordset Object is one of the most straighforward
+                          ways to retrieve data from a database...
+                        </p>
+                        <a
+                          href="./recordset_object.htm"
+                          class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./source_control.htm">Source Control</a>
+                          </h4>
+                        </header>
+                        <p>
+                          Every Software Project that is going to be deployed
+                          for more than a few weeks needs to be in a Source
+                          Control Repository. Source Control Software is
+                          included with most major Software Development
+                          Environments...
+                        </p>
+                        <a href="./source_control.htm" class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                    <li>
+                      <article class="box excerpt">
+                        <header>
+                          <span class="date">Feb 25, 2025</span>
+                          <h4>
+                            <a href="./variables.htm"
+                              >Variables, Variable Types, Variable Scope and
+                              Data Types</a
+                            >
+                          </h4>
+                        </header>
+                        <p>
+                          A variable is a storage location which stores a
+                          Variable Value or a Reference to the Memory Location
+                          in which the Variable Value is stored. Variables
+                          contain...
+                        </p>
+                        <a href="./variables.htm" class="button sectionBtn"
+                          >Continue Reading...</a
+                        >
+                      </article>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!-- SQL section -->
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer" class="text-center text-sm-left">
+        <div class="inner" id="contactSection">
+          <section>
+            <h2>Quick links</h2>
+            <ul class="icons">
+              <li>
+                <a href="../index.htm" title="Click to visit">Home</a>
+              </li>
+              <li>
+                <a href="../it_management.htm" title="Click to visit"
+                  >I.T. Management</a
+                >
+              </li>
+              <li>
+                <a href="../ba_pm.htm" title="Click to visit"
+                  >Business Analysis & Project Management</a
+                >
+              </li>
+              <li>
+                <a href="../vbdotnet.htm" title="Click to visit">VB.Net</a>
+              </li>
+              <li>
+                <a href="../sql_server.htm" title="Click to visit"
+                  >SQL Server</a
+                >
+              </li>
+              <li><a href="../about.htm" title="Click to visit">About</a></li>
+            </ul>
+          </section>
+          <section>
+            <h2>Follow</h2>
+            <ul class="icons">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/devonmanelski73"
+                  target="_blank"
+                  title="Click to visit"
+                  class="icon brands style2 fa-linkedin"
+                  ><span class="label">Linkedin</span></a
+                >
+              </li>
+            </ul>
+          </section>
+          <ul class="copyright">
+            <li>
+              &copy; | All rights reserved |
+              <span id="year"></span>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <a href="" id="back-to-top" class="back_to_top" title="Go to top">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
