@@ -1,0 +1,34 @@
+{
+  // -------------------------
+  // VS Code behavior settings
+  // -------------------------
+  "search.mode": "view",
+  "diffEditor.renderSideBySide": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.revealIfOpen": true,
+
+  // -------------------------
+  // Toolbar extension settings
+  // -------------------------
+  "toolbar.toolboxs": [
+    {
+      "name": "My Box",
+      "activate": true,
+      "view": "mars",
+      "layers": [
+        {
+          "name": "My Layer",
+          "icon": "person",
+          "tools": [
+            {
+              "name": "Open Extensions Folder",
+              "icon": "folder-library",
+              "actions": ["workbench.extensions.action.openExtensionsFolder"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

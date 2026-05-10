@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|c:\\users\\devon\\onedrive\\programming_projects\\visual studio projects\\api_tester\\api_tester\\form\\frmapiqa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|solutionrelative:form\\frmapiqa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|c:\\users\\devon\\onedrive\\programming_projects\\visual studio projects\\api_tester\\api_tester\\form\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|solutionrelative:form\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|c:\\users\\devon\\onedrive\\programming_projects\\visual studio projects\\api_tester\\api_tester\\module\\mainmod.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|solutionrelative:module\\mainmod.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|c:\\users\\devon\\onedrive\\programming_projects\\visual studio projects\\api_tester\\api_tester\\form\\frmapiqa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{365B1DE9-5F13-4F2D-96EF-6F50552B32B8}|API_Tester.vbproj|solutionrelative:form\\frmapiqa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMod.vb",
+              "DocumentMoniker": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Module\\MainMod.vb",
+              "RelativeDocumentMoniker": "Module\\MainMod.vb",
+              "ToolTip": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Module\\MainMod.vb",
+              "RelativeToolTip": "Module\\MainMod.vb",
+              "ViewState": "AgIAACYDAAAAAAAAAAAgwDADAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-28T12:06:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.vb",
+              "DocumentMoniker": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Form\\frmMain.vb",
+              "RelativeDocumentMoniker": "Form\\frmMain.vb",
+              "ToolTip": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Form\\frmMain.vb",
+              "RelativeToolTip": "Form\\frmMain.vb",
+              "ViewState": "AgIAAJcBAAAAAAAAAAApwLABAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-28T12:06:35.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAPIQA.vb",
+              "DocumentMoniker": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Form\\frmAPIQA.vb",
+              "RelativeDocumentMoniker": "Form\\frmAPIQA.vb",
+              "ToolTip": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Form\\frmAPIQA.vb",
+              "RelativeToolTip": "Form\\frmAPIQA.vb",
+              "ViewState": "AgIAAM8AAAAAAAAAAAApwIoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T18:56:43.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAPIQA.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Form\\frmAPIQA.vb",
+              "RelativeDocumentMoniker": "Form\\frmAPIQA.vb",
+              "ToolTip": "C:\\Users\\devon\\OneDrive\\Programming_Projects\\Visual Studio Projects\\API_Tester\\API_Tester\\Form\\frmAPIQA.vb [Design]",
+              "RelativeToolTip": "Form\\frmAPIQA.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T18:56:33.852Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

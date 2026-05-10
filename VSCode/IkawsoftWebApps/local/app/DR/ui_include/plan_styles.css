@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+ /* HTML Control Styling */
+  
+    #TestSummaryTable {
+      width: auto;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    
+
+    #TestSummaryTable  th, td {
+      padding: 5px;
+      text-align: left;
+    }
+
+    #TestSummaryTable thead {
+      background-color: #2e86c1;
+      color: white;
+   }
+
+    
+    
+
+   
+
+    
+

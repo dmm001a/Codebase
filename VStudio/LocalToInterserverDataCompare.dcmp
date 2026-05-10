@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataComparison>
+  <Version>10</Version>
+  <ConnectionProperties1>
+    <ConnectionString>Data Source=advantage.db.com;Initial Catalog=DR_Tracker;Persist Security Info=True;User ID=dmanelski;Pooling=False;Multiple Active Result Sets=False;Encrypt=False;Trust Server Certificate=False;Command Timeout=60</ConnectionString>
+    <FullDisplayName>advantage.db.com.DR_Tracker (dmanelski)</FullDisplayName>
+  </ConnectionProperties1>
+  <ConnectionProperties2>
+    <ConnectionString>Data Source=db.ikawsoft.com;Initial Catalog=DR_Tracker;Persist Security Info=True;User ID=sa;Pooling=False;Multiple Active Result Sets=False;Encrypt=False;Trust Server Certificate=False;Command Timeout=60</ConnectionString>
+    <FullDisplayName>db.ikawsoft.com.DR_Tracker (sa)</FullDisplayName>
+  </ConnectionProperties2>
+  <SessionSettings>Default</SessionSettings>
+</DataComparison>

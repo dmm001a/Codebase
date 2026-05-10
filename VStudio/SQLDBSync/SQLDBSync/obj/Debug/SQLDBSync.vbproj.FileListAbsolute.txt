@@ -1,0 +1,12 @@
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.vbproj.AssemblyReference.cache
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.frmDBSync.resources
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.Resources.resources
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.vbproj.GenerateResource.cache
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.vbproj.CoreCompileInputs.cache
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\bin\Debug\SQLDBSync.exe.config
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\bin\Debug\SQLDBSync.exe
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\bin\Debug\SQLDBSync.pdb
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\bin\Debug\SQLDBSync.xml
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.exe
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.xml
+D:\Files\OneDrive\Programming_Projects\Visual Studio Projects\SQLDBSync\SQLDBSync\obj\Debug\SQLDBSync.pdb

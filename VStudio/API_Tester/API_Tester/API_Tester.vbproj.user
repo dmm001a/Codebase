@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\devon\OneDrive\Programming_Projects\Visual Studio Projects\API_Tester\API_Tester\My Project\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Form\frmAPIQA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\frmInProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\frmPolling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\frmSetPath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\frmViewReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form\frmViewRequestResponse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
